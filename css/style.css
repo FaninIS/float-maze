@@ -1,0 +1,331 @@
+@font-face {
+ font-family: 'alex_brushregular', Arial, Helvetica, sans-serif;
+ src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+      url('../fonts/alexbrush-regular-webfont.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+ font-size: 15px;
+}
+
+body {
+ margin: 0;
+ font-family: 'alex_brushregular', Arial, Helvetica, sans-serif;
+ box-sizing: border-box;
+ }
+
+ #main {
+  margin: 0 auto;
+  width: 900px;
+  height: 900px;
+  border: 2px solid #000;
+  }
+
+  .block-1 {
+   width: 900px;
+   height: 140px;
+   background-color: rgb(241, 191, 143);
+   padding-top: 50px;
+   }
+
+  .block-2 {
+       width: 700px;
+       height: 80px;
+       background-color: rgb(235, 174, 8);
+       margin-right: auto;
+       margin-left: auto;
+       padding-top: 10px;
+       }
+              
+ .block-3 {
+       width: 300px;
+       height: 40px;
+       background-color:rgb(230, 226, 190) ;
+       margin-left: auto;
+       margin-right: auto;
+       text-align: center;
+       margin-top: 15px;
+       }
+
+     
+        .menu-1, .menu-2, .menu-3, .menu-4, .menu-5 {
+          width: 20%;
+          height: 130px;
+          float: left;
+          text-align: center;
+        }
+
+     .menu-1 {
+          background-color: rgb(10, 167, 167);
+         }
+
+     .menu-2 {
+          background-color: rgb(44, 150, 236);
+          }
+
+     .menu-3 {
+          background-color:rgb(226, 197, 169);
+          }
+
+     .menu-4 {
+          background-color:rgb(245, 133, 152);
+          }
+
+     .menu-5 {
+          background-color:rgb(64, 32, 107);
+          }
+
+          .box-1 {
+          width: 300px;
+          height: 360px;
+          background-color: rgb(1, 98, 1);
+          clear: both;
+          padding-top: 10px;
+          box-sizing: border-box;
+          float: left;
+          }
+          
+          .text {
+          width: 60%;
+          height: 60px;
+          background-color: rgb(173, 171, 171);
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+          margin-bottom: 20px;
+          }
+
+          .unit-3 {
+               width: 50%;
+               height: 25%;
+               background-color: rgb(170, 26, 26);
+               text-align: center;
+               margin-left: auto;
+               margin-right: auto;
+               padding-bottom: 8px;
+               }
+
+          .unit-4 {
+               width: 25%;
+               height: 50%;
+               background-color: rgb(235, 134, 151);
+               margin-left: 25%;
+               margin-right: auto;
+               text-align: center;
+               float: left;
+               }
+
+          .unit-5 {
+               width: 25%;
+               height: 50%;
+               background-color: rgb(226, 181, 138);
+               text-align: center;
+               margin-left: auto;
+               margin-right: 25%;
+               }
+
+
+               .section-abc {
+                    width: 300px;
+                    height: 360px;
+                    text-align: center;
+                    float: left;
+                    }
+
+               .block-a {    
+                    width: 100%;
+                    height: 40px;
+                    background-color: rgb(22, 132, 136);
+                    }
+               
+               .super-b {
+                    width: 100px;
+                    float: left;
+               }
+
+               #plus-b {
+                    background-color: rgb(141, 223, 223);
+               }
+
+               .block-b {
+                    height: 160px;
+                    background-color: rgb(141, 223, 223);
+                    padding-top: 65px;
+                    }
+               
+               .block-b1 {
+                    width: 50%;
+                    height: 240px;
+                    background-color:rgb(156, 34, 34);
+                    float: left;
+                    }
+               
+               .block-b2 {
+                    width: 50px;
+                    height: 120px;
+                    background-color: rgb(185, 243, 68);
+                    float: right;
+                    margin-top: 119px;
+                    }
+               
+               .super-c {
+                    width: 100px;
+                    float: left;
+               }
+
+               .block-c1 {
+                    height: 80px;
+                    background-color: rgb(184, 228, 228);
+               }
+               
+               .block-c2 {
+                    height: 80px;
+                    background-color: rgb(4, 4, 141);
+               }
+               
+               .blocl-c3 {
+                    height: 80px;
+                    background-color:blueviolet ;
+               }
+               
+               .block-c4 {
+                    float: left;
+                    background-color: cornsilk;
+               }
+               
+               .block-c5 {
+                    background-color: rgb(241, 102, 102);
+                    float: right;
+               }
+
+               .block-c4, .block-c5 {
+                    width: 50%;
+                    height: 80px;
+               }
+               
+               .super-d {
+                    width: 100px;
+                    float: right;
+               }
+               .block-d {
+                    height: 80px;
+                    background-color: turquoise;
+               }
+               
+               .block-d1 {
+                    background-color: teal;
+                    height: 80px;
+               }
+               
+               .block-d3 {
+                    height: 160px;
+                    background-color: wheat;
+               }
+
+               img {
+               width: 20px;
+               height: 15px;
+               }
+
+          .section-roman {
+               width: 300px;
+               height: 360px;
+               float: right;
+               text-align: center;
+               }
+               
+               .plus-1, .plus-2, .plus-3 {
+                    width: 100px;
+                    height: 40px;
+               }
+
+               .plus-1 {
+                    background-color: rgb(99, 224, 183);
+                    float: left;
+               }
+
+               .plus-2 {
+                    background-color: violet;
+                    float: left;
+               }
+
+               .plus-3 {
+                    background-color: tomato;
+                    float: right;
+               }
+               
+               .plus-sand {
+                    height: 20px;
+                    clear: both;
+                    background-color: rgb(240, 226, 201);
+                    padding: 20px;
+                    }
+
+               .plus-red {
+                    background-color: red;
+                    width: 130px;
+                    height: 5px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-top: 20px;
+                    }
+
+               .plus-black {
+                    background-color: #000;
+                    width: 20px;
+                    height: 5px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    }
+
+               .plus-6 {
+                    height: 60px;
+                    background-color: rgb(211, 209, 211);
+                    }
+               
+               .plus-7 {
+                    width: 100px;
+                    height: 200px;
+                    background-color: rgb(10, 93, 93);
+                    float: left;
+               }
+
+               .plus-8 {
+                    width: 200px;
+                    height: 60px;
+                    background-color: rgb(98, 106, 109);
+                    float: left;
+               }
+
+               .plus-9, .plus-10 {
+                    width: 100px;
+                    height: 70px;
+               }         
+
+               .plus-9 {
+                    background-color: rgb(119, 24, 182);
+                    float: left;
+               }
+               .plus-10 {
+                    background-color: rgb(250, 237, 214);
+                    float: right;
+               }
+
+               .plus-11 {
+                    width: 200px;
+                    height: 70px;
+                    background-color: rgb(207, 130, 207);
+                    float: left;
+               }
+
+          footer {
+               clear: both;
+               width: 100%;
+               height: 220px;
+               background-color: rgb(108, 110, 110);
+               text-align: center;
+          }
+
+
+
+
+
